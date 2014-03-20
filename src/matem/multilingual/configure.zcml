@@ -1,0 +1,13 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           i18n_domain="matem.multilingual">
+
+    <genericsetup:registerProfile
+        name="default"
+        title="Matem Multilingual"
+        directory="profiles/default"
+        description="A starting point for a product"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+</configure>
